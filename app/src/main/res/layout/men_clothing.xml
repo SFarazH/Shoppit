@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="White-Tshirt"
+        android:textColor="@color/teal"
+        android:layout_alignTop="@id/prod1"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="White-Tshirt"
+        android:textColor="@color/teal"
+        android:layout_alignTop="@id/prod2"
+        />
+
+    <ImageView
+        android:id="@+id/pastaImage_1"
+        android:layout_width="307dp"
+        android:layout_height="275dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="82dp"
+        android:onClick="showPopup"
+        app:srcCompat="@drawable/tshirt" />
+
+    <ImageView
+        android:id="@+id/pastaImage_2"
+        android:layout_width="518dp"
+        android:layout_height="285dp"
+        android:layout_below="@id/pastaImage_1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-108dp"
+        android:layout_marginLeft="-108dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="33dp"
+        android:onClick="showPopup"
+        android:textColor="@color/black"
+        app:srcCompat="@drawable/black" />
+
+    <Button
+        android:id="@+id/prod2"
+        android:layout_width="95dp"
+        android:layout_height="92dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="539dp"
+        android:layout_marginEnd="41dp"
+        android:backgroundTint="@color/white"
+        android:text="BUY @3,999"
+        android:textColor="@color/teal" />
+
+    <Button
+        android:id="@+id/prod1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="450dp"
+        android:backgroundTint="@color/white"
+        android:text="BUY @rs.999"
+        android:textColor="@color/teal" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="661dp"
+        android:text="Mens' Collection"
+        android:textColor="@color/teal"
+        android:textSize="33dp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
